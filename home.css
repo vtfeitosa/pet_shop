@@ -1,0 +1,277 @@
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    height: 20%;
+
+    background-color: #90D4E9;
+
+    font-size: 0.9rem;
+    color: #fff;
+
+    margin-bottom: 0%;
+    padding-top: 40PX;
+    padding-bottom: 40px;
+}
+
+#title_box {
+    /* Bloco com Título e Subtítulo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 160px;
+    max-height: 300px;
+
+    background-color: #fff;
+    
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    color: #90D4E9;
+}
+
+#title_box h1 {  
+      /* Título da  Página */
+    text-transform: none;
+    font-size: 2.5rem;
+}
+
+
+.logo {
+    width: 65px;
+}
+
+.menu { 
+    display: flex;
+    justify-content: space-around;
+
+    height: 40px;
+
+    background-color: #F7F7F7;
+
+    border-style: hidden;
+    border-color: #fff;
+
+    font-size: 0.8rem;
+    font-style: normal;
+    color: black;
+
+    padding: 10px;
+}
+
+.menu a:hover {
+    /* Destaque ao passar o mouse no menu */
+    color: #90D4E9;
+}
+
+
+.cover {
+    /* Capa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 600px;
+
+    background-image: url(./assets/images/cover_cat.webp);
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.cover p {
+    /* Texto sob a capa */
+    font-size: 4.6rem;
+
+    margin-bottom: 16px;
+}
+
+.info {
+    /* Bloco de Informações */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 80%;
+
+    background-color: #fff;
+
+    color: #90D4E9;
+
+    padding: 50px;
+}
+
+.info p {
+    /* Subtítulo do Top do Bloco de Informações */
+    color: grey;
+}
+
+.info_top {
+    /* Parte superior do Bloco de Informações - Título e Subtitulo */
+    text-align: center;
+    font-size: 0.9rem;
+
+    margin-bottom: 40px;
+}
+
+.info_title {
+    /* Título do Bloco de Informações */
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+
+    margin-top: 20px;
+}
+
+.benefits {
+    /* Bloco de Artigos detro do Bloco de Informações */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+.benefit {
+    /* Artigos dentro do Bloco "benefits" */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+
+    font-size: 1.5rem;
+    text-align: center;
+
+    margin: 10px;
+    padding: 5px;
+}
+
+.benefit_title {
+    font-family: 'Courier New', Courier, monospace;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.benefit_leg {
+    font-size: 0.8rem;
+}
+
+.benefit button {
+    /* Botão Azul "Veja Mais" */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 30px;
+
+    background-color: #90D4E9;
+    border-style: none;
+
+    color: #fff;
+    
+    margin: 20px;
+}
+
+.benefit button:hover {
+    background-color: #6B9EAE;
+}
+
+.gallery {
+    /* Galeria de Fotos */
+    display: flex;
+    overflow: hidden;
+    
+    width: 100%;
+    height: 25%;
+}
+
+.pet {
+    /* Imagens de Pet da galeria */
+    width: 16.60vw;
+    height: 100%;
+
+    margin: 0%;
+
+    overflow: hidden;
+}
+
+.social_media {
+    /* Footer - Lado Esquerdo */
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    width: 25%;
+}
+
+.adress {
+    /* Footer - Lado Direito */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    width: 25%;
+
+    text-align: right;
+}
+
+.button_wtt {
+    /* Botão "WhatsApp" */
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+
+    width: auto;
+
+    height: auto;
+
+    background-color: #92bbc7;
+    border-style: none;
+    border-radius: 30px;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #fff;
+    
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.button_wtt:hover{
+    background-color: #6B9EAE;
+}
+
+.dotted_line {
+    /* Linha de divisão do Bloco .info */
+    width: 95%;
+
+    border-bottom-style: dashed;
+    border-bottom-color: #90D4E9;
+}
